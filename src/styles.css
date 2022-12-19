@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.root_app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.root_image {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 2px;
+}
+
+.root_image img {
+  height: 100%;
+  width: 100%;
+}
+
+.root_imageGrid {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.root_addButton {
+  cursor: pointer;
+  display: flex;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.filterPill,
+.filterPillActive {
+  cursor: pointer;
+  background: #999999;
+  border-radius: 10px;
+  padding: 4px 12px;
+  margin: 4px;
+}
+.filterPillActive {
+  background: green;
+}
+
+.root_filterPills {
+  display: flex;
+  margin-bottom: 12px;
+}
